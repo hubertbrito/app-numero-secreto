@@ -25,6 +25,26 @@ body::before {
     height: 100%;
     opacity: 0.4;
 }
+.coluna{
+    display: flex;
+    flex-direction: column;
+}
+/* div da logo topo */
+#topo-logo {
+    width: 150px;
+   
+  }
+.div-logo-topo{
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+  }
+  .icone-logo-banner{
+    width: 33px;
+    margin-bottom: -19px;
+  }
+  /* fim div da logo topo */
 
 .container {
     width: 80%;
@@ -69,7 +89,8 @@ body::before {
 }
 
 .container__texto {
-    margin: 16px 0 16px 0;
+    width: 100%;
+    margin: 36px 0 16px 0;
 }
 
 .container__texto-azul {
@@ -96,7 +117,7 @@ body::before {
 
 h1 {
     font-family: 'Chakra Petch', sans-serif;
-    font-size: 48px;
+    font-size: 36px;
     padding-bottom: 2rem;
 }
 
@@ -106,7 +127,7 @@ button {
 }
 
 .texto__paragrafo {
-    font-size: 27px;
+    font-size: 18px;
     font-weight: 400;
 }
 
@@ -116,14 +137,19 @@ button:disabled {
 
 @media screen and (max-width: 540px) {
 
-    h1 {
-        font-size: 36px;
+    h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .texto__paragrafo {
+        font-size: 18px;
+        font-weight: 400;
     }
     .container__botao {
         font-size: 14px;
     }
     .texto__paragrafo {
-        font-size: 24px;
+        font-size: 21px;
     }
     .container__conteudo {
         display: block;
