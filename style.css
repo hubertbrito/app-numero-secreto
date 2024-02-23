@@ -158,4 +158,21 @@ button:disabled {
     .container__informacoes {
         padding: 1rem
     }
+
+    /* div da logo topo */
+#topo-logo {
+    width: 75px;
+   
+  }
+.div-logo-topo{
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+  }
+  .icone-logo-banner{
+    width: 17px;
+    margin-bottom: -8px;
+  }
+  /* fim div da logo topo */
 }
